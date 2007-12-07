@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.4.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>csOopCalendarPlugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary/>
+ <description/>
+ <lead>
+  <name/>
+  <user/>
+  <email/>
+  <active>yes</active>
+ </lead>
+ <date>2007-12-06</date>
+ <version>
+   <release>0.0.1</release>
+   <api>0.0.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.symfony-project.com/license">MIT license</license>
+ <notes>-</notes>
+ <contents><dir name="/"><dir name="config"/><dir name="data"><dir name="fixtures"/><dir name="tasks"/></dir><dir name="generator"/><dir name="lib"><dir name="helper"/><dir name="model"><dir name="doctrine"/></dir></dir><file name="LICENSE" role="data"/><dir name="modules"/><file name="README" role="data"/></dir></contents>
+
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   <package>
+    <name>csOopCalendarPlugin</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>0.8.1</min>
+    <max>1.1.0</max>
+    <exclude>1.1.0</exclude>
+   </package>
+  </required>
+ </dependencies>
+
+ <phprelease>
+ </phprelease>
+
+ <changelog>
+ </changelog>
+</package>
